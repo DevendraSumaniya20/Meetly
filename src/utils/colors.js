@@ -1,4 +1,10 @@
 export default {
+  // Primary pastel colors
+  primaryBackground: '#F5EFFF',
+  secondaryBackground: '#E5D9F2',
+  primaryAmethyst: '#CDC1FF',
+  primaryPeriwinkle: '#A294F9',
+
   gray: '#666666',
 
   // Text colors

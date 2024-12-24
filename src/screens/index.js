@@ -1,9 +1,11 @@
 import {HomeScreen} from './Home';
-import LoginScreen from './Login';
 import {EditProfileScreen, ProfileScreen} from './Profile';
-import RegisterScreen from './Register';
+
 import {SearchScreen} from './Search';
 import {TrendingScreen} from './Trending';
+import {LoginScreen} from './Login';
+import {RegisterScreen} from './Register';
+import {SplashScreen} from './Splash';
 
 export {
   HomeScreen,
@@ -11,6 +13,7 @@ export {
   ProfileScreen,
   SearchScreen,
   TrendingScreen,
-  RegisterScreen,
   LoginScreen,
+  RegisterScreen,
+  SplashScreen,
 };

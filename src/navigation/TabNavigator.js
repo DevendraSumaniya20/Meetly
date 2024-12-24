@@ -9,6 +9,7 @@ import {
 } from '../screens';
 import ImagePath from '../utils/ImagePath';
 import {moderateScale} from '../utils/responsive';
+import colors from '../utils/colors';
 
 const Tab = createBottomTabNavigator();
 
@@ -30,7 +31,7 @@ const Icons = ({route, focused, color, size}) => {
       style={{
         height: moderateScale(24),
         width: moderateScale(24),
-        tintColor: focused ? color : '#444444',
+        tintColor: focused ? color : colors.darkGray,
       }}
     />
   );
@@ -48,17 +49,11 @@ const TabNavigator = () => {
           alignItems: 'center',
           justifyContent: 'center',
         },
-        tabBarActiveTintColor: '#ff4500',
-        tabBarInactiveTintColor: '#444444',
+        tabBarActiveTintColor: colors.neonCyan_60,
+        tabBarInactiveTintColor: colors.darkGray_80,
       })}>
       <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen
-        name="Search"
-        component={SearchScreen}
-        options={{
-          opacity: 0.4,
-        }}
-      />
+      <Tab.Screen name="Search" component={SearchScreen} options={{}} />
       <Tab.Screen name="Trending" component={TrendingScreen} />
       <Tab.Screen name="Profile" component={ProfileScreen} />
     </Tab.Navigator>
