@@ -1,9 +1,7 @@
 import {NavigationContainer} from '@react-navigation/native';
-import StackNavigator from './StackNavigation/StackNavigator';
 import TabNavigator from './TabNavigator';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import MainStack from './StackNavigation/MainStack';
-import DrawerNavigator from './DrawerNavigator';
 import {SplashScreen} from '../screens';
 
 const Stack = createNativeStackNavigator();
