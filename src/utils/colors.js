@@ -1,9 +1,32 @@
 export default {
   // Primary pastel colors
-  primaryBackground: '#F5EFFF',
-  secondaryBackground: '#E5D9F2',
-  primaryAmethyst: '#CDC1FF',
-  primaryPeriwinkle: '#A294F9',
+
+  MainLightBackground: '#A594F9',
+  LightGradiantColor1: '#CDC1FF',
+  LightGradiantColor2: '#F5EFFF',
+  LightButtonColor: '#E5D9F2',
+
+  MainDarkBackground: '#27374D',
+  DarkGradiantColor1: '#526D82',
+  DarkGradiantColor2: '#9DB2BF',
+  DarkButtonColor: '#DDE6ED',
+
+  MainDarkBackground: '#A0937D',
+  DarkGradiantColor1: '#E7D4B5',
+  DarkGradiantColor2: '#F6E6CB',
+  DarkButtonColor: '#B6C7AA',
+
+  // light mode
+  primaryLightBackground: '#F5EFFF', // Light Lavender Background
+  secondaryLightBackground: '#E5D9F2', // Pale Lilac Background
+  primaryLightAmethyst: '#CDC1FF', // Light Amethyst
+  primaryLightPeriwinkle: '#A294F9', // Light Periwinkle
+
+  // dark mode
+  primaryDarkBackground: '#1D1A3A', // Dark Purple Background
+  secondaryDarkBackground: '#2D2350', // Deep Purple Background
+  primaryDarkAmethyst: '#4A3C9B', // Amethyst
+  primaryDarkPeriwinkle: '#5A4BE1', // Dark Periwinkle
 
   gray: '#666666',
 

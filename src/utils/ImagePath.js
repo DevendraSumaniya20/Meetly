@@ -4,4 +4,6 @@ export default {
   SEARCH: require('../assets/images/search.png'),
   TRENDING: require('../assets/images/trending.png'),
   PROFILE: require('../assets/images/profile.png'),
+  WAVELIGHT: require('../assets/images/waveLight.png'),
+  WAVEDARK: require('../assets/images/waveDark.png'),
 };

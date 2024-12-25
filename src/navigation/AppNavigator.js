@@ -3,11 +3,13 @@ import TabNavigator from './TabNavigator';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import MainStack from './StackNavigation/MainStack';
 import {SplashScreen} from '../screens';
+import {StatusBar} from 'react-native';
 
 const Stack = createNativeStackNavigator();
 const AppNavigator = () => {
   return (
     <NavigationContainer>
+      <StatusBar backgroundColor={'transparent'} translucent={true} />
       <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen name="Splash" component={SplashScreen} />
         <Stack.Screen
