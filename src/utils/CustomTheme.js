@@ -7,35 +7,35 @@ const CustomTheme = () => {
   const [currentColorScheme, setCurrentColorScheme] = useState(colorScheme);
 
   const lightTheme = {
-    primaryBackground: colors.primaryLightBackground, // Light Lavender Background
-    secondaryBackground: colors.secondaryLightBackground, // Pale Lilac Background
-    primaryAmethyst: colors.primaryLightAmethyst, // Light Amethyst
-    primaryPeriwinkle: colors.primaryLightPeriwinkle, // Light Periwinkle
-    textColor: colors.textPrimary,
-    borderColor: colors.textPrimary,
-    disabledBackground: colors.lightGray,
-    disabledText: colors.gray,
-    disabledBorder: colors.darkGray,
-    placeholderTextColor: colors.textPrimary,
+    primaryBackground: colors.lightPrimaryBackground, // Clean white background
+    secondaryBackground: colors.lightSecondaryBackground, // Subtle gray for contrast
+    accentColor: colors.lightAccentColor, // Soft Blue for highlights
+    textColor: colors.lightTextPrimary, // Black for sharp text
+    borderColor: colors.lightTextPrimary, // Matches primary text for borders
+    disabledBackground: colors.lightGray, // Light gray for disabled elements
+    disabledText: colors.gray, // Neutral gray for disabled text
+    disabledBorder: colors.darkGray, // Dark gray for disabled borders
+    placeholderTextColor: colors.lightTextSecondary, // Secondary text color for placeholders
     LinearGradientColor: [
-      colors.LightGradiantColor1,
-      colors.LightGradiantColor2,
+      colors.lightSecondaryBackground, // Subtle gradient start
+      colors.lightPrimaryBackground, // Subtle gradient end
     ],
   };
 
-  // Dark theme
   const darkTheme = {
-    primaryBackground: colors.primaryDarkBackground, // Dark Purple Background
-    secondaryBackground: colors.secondaryDarkBackground, // Deep Purple Background
-    primaryAmethyst: colors.primaryDarkAmethyst, // Amethyst
-    primaryPeriwinkle: colors.primaryDarkPeriwinkle, // Dark Periwinkle
-    textColor: colors.white_100,
-    borderColor: colors.white_100,
-    disabledBackground: colors.black_40,
-    disabledText: colors.white_70,
-    disabledBorder: colors.black_60,
-    placeholderTextColor: colors.white_100,
-    LinearGradientColor: [colors.DarkGradiantColor1, colors.DarkGradiantColor2],
+    primaryBackground: colors.darkPrimaryBackground, // Near black background
+    secondaryBackground: colors.darkSecondaryBackground, // Slightly lighter for contrast
+    accentColor: colors.darkAccentColor, // Soft purple for highlights
+    textColor: colors.darkTextPrimary, // White for sharp text
+    borderColor: colors.darkTextPrimary, // Matches primary text for borders
+    disabledBackground: colors.black_40, // Dimmed black for disabled elements
+    disabledText: colors.black_70, // Dimmed white for disabled text
+    disabledBorder: colors.black_60, // Subtle black for disabled borders
+    placeholderTextColor: colors.darkTextSecondary, // Light gray for placeholders
+    LinearGradientColor: [
+      colors.darkSecondaryBackground, // Subtle gradient start
+      colors.darkPrimaryBackground, // Subtle gradient end
+    ],
   };
 
   const theme = currentColorScheme === 'dark' ? darkTheme : lightTheme;

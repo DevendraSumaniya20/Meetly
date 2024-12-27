@@ -12,8 +12,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		4C151195CA744C51B24C9972 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D75CC897E1B437BA59FDBE9 /* Roboto-Medium.ttf */; };
-		7A0B28206CCF0A91E98A1170 /* libPods-Meetly-MeetlyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78624AC9F11A8039576F1F07 /* libPods-Meetly-MeetlyTests.a */; };
-		7C1D8B62C8808E36B79546CD /* libPods-Meetly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 559228F49DAB5EB51EBCCF35 /* libPods-Meetly.a */; };
+		7BA82201BC3561790B8E6BEA /* libPods-Meetly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45127CEF5F97F690593689B1 /* libPods-Meetly.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		890751BCCCBA4DF398718852 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13290A076BF54524819CC1EC /* Roboto-Thin.ttf */; };
 		A19F95B3104149688F02FA34 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C2865E2D0C149D1AD8082C8 /* Roboto-Bold.ttf */; };
@@ -21,6 +20,7 @@
 		C50F6020388ED880DABBDBFB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		DBE93AD2F80146B99026CFC1 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F444C85B7D044579461BC23 /* Roboto-Black.ttf */; };
 		DC7B6DB4D3B84FBC8F725703 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 993BAFA60DDB4FB2B53B2C7A /* Roboto-Regular.ttf */; };
+		F6F2A41DACA085069ACB163A /* libPods-Meetly-MeetlyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A2482502A878691C9A04253 /* libPods-Meetly-MeetlyTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,18 +46,18 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Meetly/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Meetly/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		1C2865E2D0C149D1AD8082C8 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
-		286643034EC678D275E6F2F8 /* Pods-Meetly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetly.release.xcconfig"; path = "Target Support Files/Pods-Meetly/Pods-Meetly.release.xcconfig"; sourceTree = "<group>"; };
 		382453EF0D524A608D6072C7 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
 		3D75CC897E1B437BA59FDBE9 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		423B66A87D8676ECD1A9D764 /* Pods-Meetly-MeetlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetly-MeetlyTests.release.xcconfig"; path = "Target Support Files/Pods-Meetly-MeetlyTests/Pods-Meetly-MeetlyTests.release.xcconfig"; sourceTree = "<group>"; };
+		45127CEF5F97F690593689B1 /* libPods-Meetly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Meetly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DA04CFA13D5F6847C8A89A6 /* Pods-Meetly-MeetlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetly-MeetlyTests.release.xcconfig"; path = "Target Support Files/Pods-Meetly-MeetlyTests/Pods-Meetly-MeetlyTests.release.xcconfig"; sourceTree = "<group>"; };
 		4F444C85B7D044579461BC23 /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
-		559228F49DAB5EB51EBCCF35 /* libPods-Meetly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Meetly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		635DEC38CB0C968173FF74DA /* Pods-Meetly-MeetlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetly-MeetlyTests.debug.xcconfig"; path = "Target Support Files/Pods-Meetly-MeetlyTests/Pods-Meetly-MeetlyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		78624AC9F11A8039576F1F07 /* libPods-Meetly-MeetlyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Meetly-MeetlyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2482502A878691C9A04253 /* libPods-Meetly-MeetlyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Meetly-MeetlyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Meetly/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		993BAFA60DDB4FB2B53B2C7A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		9E8DED6E98D5471E71A0F7F1 /* Pods-Meetly-MeetlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetly-MeetlyTests.debug.xcconfig"; path = "Target Support Files/Pods-Meetly-MeetlyTests/Pods-Meetly-MeetlyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B43E6CF082BC9C0892C1B3D9 /* Pods-Meetly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetly.debug.xcconfig"; path = "Target Support Files/Pods-Meetly/Pods-Meetly.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B23BC67A67086DF2899B35 /* Pods-Meetly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetly.release.xcconfig"; path = "Target Support Files/Pods-Meetly/Pods-Meetly.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FE120FCC77FA8CC5577E16CC /* Pods-Meetly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meetly.debug.xcconfig"; path = "Target Support Files/Pods-Meetly/Pods-Meetly.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0B28206CCF0A91E98A1170 /* libPods-Meetly-MeetlyTests.a in Frameworks */,
+				F6F2A41DACA085069ACB163A /* libPods-Meetly-MeetlyTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C1D8B62C8808E36B79546CD /* libPods-Meetly.a in Frameworks */,
+				7BA82201BC3561790B8E6BEA /* libPods-Meetly.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,8 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				559228F49DAB5EB51EBCCF35 /* libPods-Meetly.a */,
-				78624AC9F11A8039576F1F07 /* libPods-Meetly-MeetlyTests.a */,
+				45127CEF5F97F690593689B1 /* libPods-Meetly.a */,
+				6A2482502A878691C9A04253 /* libPods-Meetly-MeetlyTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,10 +170,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FE120FCC77FA8CC5577E16CC /* Pods-Meetly.debug.xcconfig */,
-				286643034EC678D275E6F2F8 /* Pods-Meetly.release.xcconfig */,
-				635DEC38CB0C968173FF74DA /* Pods-Meetly-MeetlyTests.debug.xcconfig */,
-				423B66A87D8676ECD1A9D764 /* Pods-Meetly-MeetlyTests.release.xcconfig */,
+				B43E6CF082BC9C0892C1B3D9 /* Pods-Meetly.debug.xcconfig */,
+				D6B23BC67A67086DF2899B35 /* Pods-Meetly.release.xcconfig */,
+				9E8DED6E98D5471E71A0F7F1 /* Pods-Meetly-MeetlyTests.debug.xcconfig */,
+				4DA04CFA13D5F6847C8A89A6 /* Pods-Meetly-MeetlyTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -185,12 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MeetlyTests" */;
 			buildPhases = (
-				36B8CA0CED47A166570F1EBC /* [CP] Check Pods Manifest.lock */,
+				25D4B6BCC7E4070D64ABFB4D /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				E625A0CCA069A6D7C5A525E1 /* [CP] Embed Pods Frameworks */,
-				C941BE122EF8501A87E0A426 /* [CP] Copy Pods Resources */,
+				BE110BBC2C520C1DEA143539 /* [CP] Embed Pods Frameworks */,
+				F6F5EBF65F5724F2802269BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,13 +206,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Meetly" */;
 			buildPhases = (
-				38B856AF23C8B4409030B508 /* [CP] Check Pods Manifest.lock */,
+				CBE0109632535999EBA72C39 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				449B7D2B1B8F2F554E7199EF /* [CP] Embed Pods Frameworks */,
-				79DBEA16D8F39394083BDCAE /* [CP] Copy Pods Resources */,
+				BDCF5C0142258D7DF13AC6F5 /* [CP] Embed Pods Frameworks */,
+				FF08B36D35384C03C5001BBF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,7 +302,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		36B8CA0CED47A166570F1EBC /* [CP] Check Pods Manifest.lock */ = {
+		25D4B6BCC7E4070D64ABFB4D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,7 +324,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		38B856AF23C8B4409030B508 /* [CP] Check Pods Manifest.lock */ = {
+		BDCF5C0142258D7DF13AC6F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meetly/Pods-Meetly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meetly/Pods-Meetly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meetly/Pods-Meetly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE110BBC2C520C1DEA143539 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meetly-MeetlyTests/Pods-Meetly-MeetlyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Meetly-MeetlyTests/Pods-Meetly-MeetlyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meetly-MeetlyTests/Pods-Meetly-MeetlyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBE0109632535999EBA72C39 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -346,41 +380,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		449B7D2B1B8F2F554E7199EF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Meetly/Pods-Meetly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Meetly/Pods-Meetly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meetly/Pods-Meetly-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		79DBEA16D8F39394083BDCAE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Meetly/Pods-Meetly-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Meetly/Pods-Meetly-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meetly/Pods-Meetly-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C941BE122EF8501A87E0A426 /* [CP] Copy Pods Resources */ = {
+		F6F5EBF65F5724F2802269BD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,21 +397,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meetly-MeetlyTests/Pods-Meetly-MeetlyTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E625A0CCA069A6D7C5A525E1 /* [CP] Embed Pods Frameworks */ = {
+		FF08B36D35384C03C5001BBF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Meetly-MeetlyTests/Pods-Meetly-MeetlyTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Meetly/Pods-Meetly-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Meetly-MeetlyTests/Pods-Meetly-MeetlyTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Meetly/Pods-Meetly-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meetly-MeetlyTests/Pods-Meetly-MeetlyTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Meetly/Pods-Meetly-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -447,7 +447,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 635DEC38CB0C968173FF74DA /* Pods-Meetly-MeetlyTests.debug.xcconfig */;
+			baseConfigurationReference = 9E8DED6E98D5471E71A0F7F1 /* Pods-Meetly-MeetlyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -474,7 +474,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 423B66A87D8676ECD1A9D764 /* Pods-Meetly-MeetlyTests.release.xcconfig */;
+			baseConfigurationReference = 4DA04CFA13D5F6847C8A89A6 /* Pods-Meetly-MeetlyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -498,7 +498,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE120FCC77FA8CC5577E16CC /* Pods-Meetly.debug.xcconfig */;
+			baseConfigurationReference = B43E6CF082BC9C0892C1B3D9 /* Pods-Meetly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -526,7 +526,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 286643034EC678D275E6F2F8 /* Pods-Meetly.release.xcconfig */;
+			baseConfigurationReference = D6B23BC67A67086DF2899B35 /* Pods-Meetly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

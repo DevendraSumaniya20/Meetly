@@ -1,0 +1,13 @@
+0 verbose cli /Users/mtpc-335/.nvm/versions/node/v22.9.0/bin/node /Users/mtpc-335/.nvm/versions/node/v22.9.0/bin/npm
+1 info using npm@11.0.0
+2 info using node@v22.9.0
+3 silly config load:file:/Users/mtpc-335/.nvm/versions/node/v22.9.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/mtpc-335/Desktop/Meetly/.npmrc
+5 silly config load:file:/Users/mtpc-335/.npmrc
+6 silly config load:file:/Users/mtpc-335/.nvm/versions/node/v22.9.0/etc/npmrc
+7 verbose title npm start
+8 verbose argv "start" "--reset" "-cache" "clear"
+9 verbose logfile logs-max:10 dir:/Users/mtpc-335/Desktop/Meetly/clear/_logs/2024-12-26T06_38_44_489Z-
+10 verbose logfile /Users/mtpc-335/Desktop/Meetly/clear/_logs/2024-12-26T06_38_44_489Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 310ms

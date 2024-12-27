@@ -2,9 +2,8 @@ import {StyleSheet, View, TextInput, TouchableOpacity} from 'react-native';
 import React from 'react';
 import {moderateScale} from '../utils/responsive';
 import CustomIcon from './CustomIcon';
-import colors from '../utils/colors';
 import fonts from '../utils/fonts';
-import CustomTheme from '../utils/CustomTheme';
+import {useSelector} from 'react-redux';
 
 const CustomTextInput = ({
   placeholder,
@@ -15,37 +14,42 @@ const CustomTextInput = ({
   rightIconType = 'Ionicons',
   value,
   textAlign = 'left',
-  borderColor,
-  placeholderTextColor,
   ...props
 }) => {
-  const theme = CustomTheme();
-  const resolvedPlaceholderTextColor =
-    placeholderTextColor || theme.placeholderTextColor;
-  const resolvedBorderColor = borderColor || theme.borderColor;
-  const textColor = theme.textColor;
+  // Get the theme from the Redux store
+  const theme = useSelector(state => state.theme.theme);
 
   return (
-    <View style={[styles.container]}>
-      <View style={[styles.inputWrapper, {borderColor: resolvedBorderColor}]}>
+    <View style={styles.container}>
+      <View
+        style={[
+          styles.inputWrapper,
+          {
+            borderColor: theme.BorderColor,
+          },
+        ]}>
+        {/* Right icon */}
         {rightIcon && (
           <TouchableOpacity onPress={onPressRight} style={styles.iconWrapper}>
             <CustomIcon
               name={rightIcon}
-              color={resolvedPlaceholderTextColor}
+              color={theme.PlaceHolderColor}
               size={28}
               type={rightIconType}
             />
           </TouchableOpacity>
         )}
 
+        {/* TextInput */}
         <TextInput
           style={[
             styles.textInput,
-            {color: textColor, fontFamily: fonts.ROBOTO.Medium},
+            {
+              color: theme.FontColor, // Use font color from theme
+            },
           ]}
           placeholder={placeholder}
-          placeholderTextColor={resolvedPlaceholderTextColor}
+          placeholderTextColor={theme.PlaceHolderColor} // Set the placeholder color from theme
           textAlign={textAlign}
           onChangeText={onChangeText}
           secureTextEntry={secureTextEntry}
@@ -79,5 +83,6 @@ const styles = StyleSheet.create({
     fontSize: moderateScale(14),
     flex: 1,
     paddingVertical: moderateScale(14),
+    padding: moderateScale(0),
   },
 });
